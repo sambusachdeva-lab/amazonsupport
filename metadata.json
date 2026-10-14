@@ -1,0 +1,6 @@
+{
+  "name": "Amazon Customer Service Hub",
+  "description": "Official Amazon Help & Customer Service portal with self-service order tracking, returns, live support, troubleshooting wizards, and account assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

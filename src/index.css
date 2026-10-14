@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #eaeded;
+    color: #0f1111;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom Amazon styling utilities */
+.amazon-btn-primary {
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 9999px;
+  color: #0f1111;
+  font-weight: 500;
+  transition: all 150ms ease;
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+}
+.amazon-btn-primary:hover {
+  background-color: #f7ca00;
+  border-color: #f2c200;
+}
+.amazon-btn-primary:active {
+  background-color: #f0b800;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.amazon-btn-secondary {
+  background-color: #ffffff;
+  border: 1px solid #d5d9d9;
+  border-radius: 9999px;
+  color: #0f1111;
+  font-weight: 500;
+  transition: all 150ms ease;
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+}
+.amazon-btn-secondary:hover {
+  background-color: #f7fafa;
+  border-color: #d5d9d9;
+}
+.amazon-btn-secondary:active {
+  background-color: #edfdff;
+  border-color: #007185;
+}
+
+.amazon-link {
+  color: #007185;
+  cursor: pointer;
+  text-decoration: none;
+}
+.amazon-link:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.amazon-card {
+  background: #ffffff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.amazon-card-interactive:hover {
+  border-color: #999999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
